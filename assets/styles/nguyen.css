@@ -1,0 +1,128 @@
+/* ! Heder */
+
+.header {
+    background-color: #0a426e;
+}
+
+.header-contain {
+    padding: 8px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left__more span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: rgb(201, 201, 201);
+}
+
+.header-left__more span:not(:first-child) {
+    margin-top: 6px;
+}
+
+.header-left__nav {
+    background: rgba(0, 0, 0, 0.4);
+    color: rgb(201, 201, 201);
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.header-left__nav span {
+    font-weight: 700;
+    padding: 0 6px;
+}
+
+.header-left__nav i {
+    font-size: 12px;
+}
+
+.header-left__link {
+    display: flex;
+    margin-left: 16px;
+}
+
+.header-left__link div {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: rgb(201, 201, 201);
+    background: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right__notify {
+    font-size: 16px;
+    color: rgb(201, 201, 201);
+}
+
+.header-right__notify i {
+    margin-left: 12px;
+}
+
+.header-right__user {
+    display: flex;
+    font-size: 14px;
+    color: #fff;
+    align-items: center;
+    margin-left: 12px;
+    font-weight: 500;
+}
+
+.header-right__user-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 6px;
+}
+
+.header-right__user i {
+    margin: 0 3.5px;
+    font-size: 12px;
+}
+
+/* ! banner */
+.banner-container {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-container a img {
+    width: 200px;
+    height: 60px;
+}
+
+.banner-container ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 95px;
+    font-weight: 700;
+    color: #6d727c;
+}
+
+.banner-container ul li {
+    margin-left: 20px;
+}
