@@ -151,3 +151,127 @@
     vertical-align: middle;
     line-height: 1.5;
 }
+
+.content__main-recent {
+    padding: 16px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.content__main-recent .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.content__main-recent .btn {
+    display: flex;
+}
+
+.content__main-recent .btn .btn-prev,
+.btn-next {
+    padding: 8px 16px;
+    border: 1px solid #dee2e6;
+}
+
+.content__main-recent .btn .btn-prev i,
+.btn-next i {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.content__main-recent .btn .btn-prev.disabled,
+.btn-next.disabled {
+    color: #ccc;
+}
+
+.content__main-recent .item {
+    box-shadow: 2px 2px 5px #ccc;
+    padding-bottom: 20px;
+}
+
+.content__main-recent .item .item-body {
+    padding: 10px;
+}
+
+.content__main-recent .item img {
+    width: 100%;
+    height: 114px;
+}
+
+.content__main-recent .item h3 {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 4px;
+}
+
+.content-overview {
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.content-overview .buttons {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-overview .buttons .button2 {
+    display: flex;
+}
+
+.content-overview .buttons .button2 .btn2 {
+    margin-left: 6px;
+}
+
+.content-overview .buttons .btn {
+    padding: 10px 20px;
+    border: 1px solid #494d53;
+    font-size: 16px;
+    color: #494d53;
+}
+
+.content-overview .item {
+    box-shadow: 2px 2px 5px #ccc;
+    margin-top: 16px;
+}
+
+.content-overview .item-body {
+    height: 170px;
+    padding: 10px;
+}
+
+.content-overview .item img {
+    width: 100%;
+    height: 114px;
+}
+
+.content-overview .item h3 {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 4px;
+}
+
+.content-overview .open {
+    display: flex;
+    margin-top: 14px;
+    align-items: center;
+}
+
+.content-overview .open span {
+    margin-right: 8px;
+}
+
+.content-overview .open div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    border: 1px solid #494d53;
+}
+
+.content-overview .open div i {
+    margin-left: 4px;
+}
