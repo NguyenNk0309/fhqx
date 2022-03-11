@@ -18,31 +18,68 @@
             <div class="header">
                 <div class="header-contain">
                     <div class="header-left">
-                        <div class="header-left__more">
+                        <div class="header-left__more header__left--hover">
                             <span></span>
                             <span></span>
                             <span></span>
                         </div>
-                        <div class="header-left__nav">
+                        <div class="header-left__nav header__left--hover">
                             <img src="./assets/img/grid-icon-inverse.svg" alt="" />
                             <span>Hướng dẫn (dành cho Giảng viên)</span>
                             <i class="fa-solid fa-caret-down"></i>
                         </div>
                         <div class="header-left__link">
-                            <div class="header-left__link-world">
+                            <div class="header-left__link-world header__left--hover">
                                 <i class="fa-solid fa-earth-africa"></i>
                             </div>
-                            <div class="header-left__link-facebook">
+                            <div class="header-left__link-facebook header__left--hover">
                                 <i class="fa-brands fa-facebook-f"></i>
                             </div>
                         </div>
                     </div>
                     <div class="header-right">
-                        <div class="header-right__notify">
-                            <i class="fa-solid fa-bell"></i>
-                            <i class="fa-solid fa-comment"></i>
+                        <div class="header-right__notify ">
+                            <div class="header-right__notify-list">
+                                <i class="fa-solid fa-bell header-right--hover js-header__notify--show"></i>
+                                <div class="header-right__list-item">
+                                    <div class="notify-list__header">
+                                        <span class="notify-list__header-left">
+                                            Notifications
+                                        </span>
+                                        <div class="notify-list__header-right">
+                                            <i class="fa-solid fa-check"></i>
+                                            <i class="fa-solid fa-gear"></i>
+                                        </div>
+                                    </div>
+                                    <div class="notify-list__content-item">
+                                        <div class="content-item__body">
+                                            <div class="item__body-img">
+                                                <i class="fa-regular fa-lightbulb"></i>
+                                            </div>
+                                            <div class="img-item_msg">
+                                                Bạn có hoạt động sắp hết hạn
+                                            </div>
+                                        </div>
+                                        <div class="content-item__footer">
+                                            <div class="timestamp">Cách đây 6 các ngày4 giờ</div>
+                                            <a href="" class="content-item__footer-view">
+                                                View full notification
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="content-box"></div> 
+                                 <div class="footer-right__list-item">
+                                     <span class="footer-see">
+                                        See all
+                                     </span>
+                                 </div>   
+                                </div>
+                            </div>
+                            
+                            <i class="fa-solid fa-comment header-right--hover"></i>
                         </div>
-                        <div class="header-right__user">
+                        <div class="header-right__user header-right--hover">
                             <span>NGUYEN KHOI NGUYEN</span>
                             <div class="header-right__user-img">
                                 <img src="./assets/img/user.png" alt="" />
@@ -208,5 +245,15 @@
             </div>
             <!-- Footer -->
         </div>
+        <!-- show notification header -->
+        <script>
+            const BtNotifyShow= document.querySelector('.js-header__notify--show')
+            const NotifyShow=document.querySelector('.header-right__list-item')
+            function Show_notify(){
+                NotifyShow.classList.toggle('js-notify')
+            }
+            BtNotifyShow.addEventListener('click',Show_notify)
+
+        </script>
     </body>
 </html>

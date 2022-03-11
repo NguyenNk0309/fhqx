@@ -1,0 +1,137 @@
+.header__left--hover:hover{
+    color: #fff;
+}
+.header-right--hover:hover{
+    cursor: pointer;
+    color:#fff;
+}
+.header-right__notify{
+    display: flex;}
+.header-right__notify-list{
+    position: relative;
+}
+.header-right__list-item{
+    width: 380px;
+    height: 512px;
+    background-color: #fff;
+    top:180% ;
+    right: -10px;
+    display: block;
+    box-shadow:0 0 40px rgba(0,0,0,0.2) ;
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+.js-notify{
+    display: block;
+}
+
+.notify-list__header{
+    display: flex;
+    justify-content: space-between;
+    padding:8px 12px;
+}
+.notify-list__header::before{
+    content: "";
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+    position: absolute;
+    top: -18px;
+    right: 5px;
+    z-index: 1;
+   
+}
+.notify-list__header-left{
+    color: #353e4e;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.notify-list__header-right{ 
+    color: #0a426e;
+}
+.notify-list__header-right .fa-check:hover{
+    cursor: pointer;
+}
+.notify-list__header-right .fa-gear:hover{
+    cursor: pointer;
+}
+
+.content-item__body{
+    display: flex;
+  
+}
+.notify-list__content-item{
+    padding: 5px;
+    border-top: 1px solid rgba(240, 232, 232, 0.678);
+    border-bottom: 1px solid  rgba(240, 232, 232, 0.678);
+    
+
+}
+.notify-list__content-item:hover{
+    
+    background-color: #f5f5f5;
+    cursor: pointer;
+    
+
+}
+.content-item__body{
+    font-size: 0.7rem;
+    color: #767a84;
+    position: relative;
+    
+}
+.item__body-img{
+    margin-right: 5px;
+    position: absolute;
+    left: -10px;
+}
+.img-item_msg{
+    margin-left: 20px;
+    line-height: 100%;
+}
+.item__body-img .fa-lightbulb{
+    font-size: 1rem;
+}
+.content-item__footer{
+    display: flex;
+    padding:6px 5px 3px 20px;
+    justify-content: space-between;
+    align-content: center;
+   
+}
+
+.content-box{
+    width:100%;
+    height: 400px;
+}
+
+.content-item__footer .timestamp{
+    font-size: 0.6rem;
+    color: #6f6f6f;
+    
+}
+.content-item__footer-view{
+    font-size: 0.7rem;
+    color: #0a426e;
+    text-decoration: none;
+}
+.content-item__footer-view:hover{
+    text-decoration: underline;
+}
+.footer-right__list-item{
+    height: 33px;
+    width: 100%;
+    border-top:1px solid rgba(240, 232, 232, 0.678);
+    color: #0a426e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-see{
+    font-size: 0.8rem;
+    cursor: pointer;
+   
+}
+.footer-see:hover{
+    text-decoration:underline ;
+}
