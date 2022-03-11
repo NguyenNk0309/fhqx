@@ -168,3 +168,18 @@
 .user-control__list:hover{
     background-color: #f5f5f5;
 }
+.container{
+    display: flex;
+}
+.content-left{
+    color: #0a426e;
+    width: 440px;
+    overflow: scroll;
+    height: 617px;
+    
+}
+.content-left__item{
+    padding:12px;
+    font-size: 14px;
+    line-height: 1.5;
+}
