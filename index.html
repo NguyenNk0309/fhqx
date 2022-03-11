@@ -79,12 +79,39 @@
                             
                             <i class="fa-solid fa-comment header-right--hover"></i>
                         </div>
-                        <div class="header-right__user header-right--hover">
+                        <div class="header-right__user header-right--hover js-user-control">
+                            
                             <span>NGUYEN KHOI NGUYEN</span>
                             <div class="header-right__user-img">
                                 <img src="./assets/img/user.png" alt="" />
                             </div>
                             <i class="fa-solid fa-caret-down"></i>
+                            <div class="header-right__user-control ">
+                                <div class="user-control__list user-control__list--first">
+                                    <i class="fa-solid fa-gauge-high"></i>
+                                    <span>Nhà của tôi</span>
+                                </div>
+                                <div class="user-control__list">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Hồ sơ</span>
+                                </div>
+                                <div class="user-control__list">
+                                    <i class="fa-solid fa-table"></i>
+                                    <span>Điểm</span>
+                                </div>
+                                <div class="user-control__list">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <span>Tin nhắn</span>
+                                </div>
+                                <div class="user-control__list">
+                                    <i class="fa-solid fa-wrench"></i>
+                                    <span>Tùy chọn</span>
+                                </div>
+                                <div class="user-control__list user-control__list--last">
+                                    <i class="fa-solid fa-right-from-bracket"></i>
+                                    <span>Thoát</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -254,6 +281,15 @@
             }
             BtNotifyShow.addEventListener('click',Show_notify)
 
+        </script>
+        <!-- show user-control -->
+        <script>
+            const UserControl=document.querySelector('.js-user-control')
+            const ListControl=document.querySelector('.header-right__user-control')
+            function Show_user_control(){
+                ListControl.classList.toggle('js-list-control')
+            }
+            UserControl.addEventListener('click',Show_user_control)
         </script>
     </body>
 </html>
