@@ -325,7 +325,7 @@
 }
 
 .content__side .block-1 .exam .info {
-    margin-left: 20px;
+    margin-left: 10px;
     flex-grow: 1;
     position: relative;
 }
@@ -338,7 +338,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    margin-right: 14px;
+    margin-right: 10px;
 }
 
 .content__side .block-1 .exam .info .add {
@@ -421,9 +421,6 @@
     margin-bottom: 30px;
 }
 
-<<<<<<< HEAD
-
-=======
 .content__side .block-5 {
     background-color: #fff;
     box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
@@ -454,4 +451,3 @@
     margin-top: 20px;
     display: block;
 }
->>>>>>> 9011b044a1287ca2f7f54ba80433ba70b55f6dd0
