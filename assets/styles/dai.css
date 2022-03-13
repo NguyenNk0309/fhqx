@@ -1,3 +1,13 @@
+.header-contain{
+    position: fixed;
+    z-index: 1;
+    background-color: #0a426e;
+    width: 100%;
+}
+.container{
+    position: relative;
+    top: 51px;
+}
 .header__left--hover:hover {
     color: #fff;
 }
@@ -172,4 +182,107 @@
     padding: 12px;
     font-size: 14px;
     line-height: 1.5;
+}
+.header-right_message-item{
+    
+    background-color: #eff1f3;
+    width:320px ;
+    height: 100%;
+    position: fixed;
+    top: 51px;
+    right:0;
+    z-index: 1;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+.js-right_message-item{
+    display: block;
+}
+.message-item__exit{
+    display: flex;
+    justify-content: flex-end;
+    color: #343a40;
+    padding: 3px 8px 0 0;
+
+}
+.input-list{
+    display: flex;
+    align-items: center;
+}
+.input-list .search{
+    background-color: #343a40;
+    display: flex;
+    padding: 2px;
+    height: 40px;
+    width: 30px;
+    align-items: center;
+    position: relative;
+}
+.search .fa-magnifying-glass{
+    position: absolute;
+    right: 5px;
+}
+.input-list .fa-gear{
+    color:#6d727c;
+}
+
+.message-item__border{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   justify-items: center;
+   padding: 4px 8px;
+}
+.form-control{
+    box-shadow: none;
+    padding: 9px 15px;
+    border-color: #e2e2e2;
+    font-size: 16px;
+    border-radius: 2px;
+    width: 248px;
+    outline: none;
+
+}
+.border-contact{
+    display: flex;
+    justify-content: flex-end ;
+    margin-top: 16px;
+    width: 100%;
+    padding:5px;
+    color: #6d727c;
+    font-size: 0.9rem;
+}
+.items-list{
+    width:100%;
+    padding:8px;
+    margin: 1px;
+    border-top: 2px solid #d6d9df;
+    color: #6d727c;
+    font-weight: 700;
+}
+.message-item__border{
+    height: 504px;
+    width: 100%;
+}
+.message-see{   
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: #6d727c;
+    font-size: 0.9rem;
+}
+.messge--hover{
+    cursor: pointer;
+}
+.border-contact:hover{
+    color: #083457;
+    text-decoration: underline;
+}
+.items-list:hover{
+    background-color: #ecf0f6;
+    color: #083457;
+}
+.message-see:hover{
+    color: #083457;
+    text-decoration: underline;
 }
