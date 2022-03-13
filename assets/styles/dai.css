@@ -164,7 +164,6 @@
 .content-left {
     color: #0a426e;
     width: 440px;
-    height: 617px;
     width: 0;
     overflow: hidden;
     transition: all linear 0.2s;
