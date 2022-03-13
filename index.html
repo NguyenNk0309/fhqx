@@ -452,5 +452,19 @@
             }
             UserControl.addEventListener('click', Show_user_control);
         </script>
+        <script>
+            const more = document.querySelector('.header-left__more');
+            const contentLeft = document.querySelector('.content-left');
+            let isVisible = false;
+            more.onclick = function () {
+                if (isVisible) {
+                    contentLeft.style.width = '0';
+                    isVisible = false;
+                } else {
+                    contentLeft.style.width = '450px';
+                    isVisible = true;
+                }
+            };
+        </script>
     </body>
 </html>
