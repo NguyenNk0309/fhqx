@@ -166,6 +166,7 @@
     width: 440px;
     overflow: scroll;
     height: 617px;
+    display: none;
 }
 .content-left__item {
     padding: 12px;
