@@ -452,7 +452,25 @@
                                             <h2>Huy hiệu mới nhất của tôi</h2>
                                             <span>Bạn không có huy hiệu để hiển thị</span>
                                         </div>
+<<<<<<< HEAD
 </div>
+=======
+                                        <div class="block-5">
+                                            <h2>Sự kiện sắp xảy ra</h2>
+                                            <div class="item">
+                                                <img
+                                                    src="https://fhqx.hcmute.edu.vn/theme/image.php/maker/assign/1634220575/icon"
+                                                    alt=""
+                                                />
+                                                <div class="info">
+                                                    <span>Exercises21 is due</span>
+                                                    <span>Tuesday, 15 March, 8:16 AM</span>
+                                                </div>
+                                            </div>
+                                            <span class="goto"> Go to calender... </span>
+                                        </div>
+                                    </div>
+>>>>>>> 9011b044a1287ca2f7f54ba80433ba70b55f6dd0
                                 </div>
                             </div>
                         </div>
@@ -506,6 +524,20 @@
                 RightMess.classList.toggle('js-right_message-item')
             }
             ShowMess.addEventListener('click',Show_right_mess)
+        </script>
+        <script>
+            const more = document.querySelector('.header-left__more');
+            const contentLeft = document.querySelector('.content-left');
+            let isVisible = false;
+            more.onclick = function () {
+                if (isVisible) {
+                    contentLeft.style.width = '0';
+                    isVisible = false;
+                } else {
+                    contentLeft.style.width = '340px';
+                    isVisible = true;
+                }
+            };
         </script>
     </body>
 </html>

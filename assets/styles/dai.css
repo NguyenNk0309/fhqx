@@ -174,9 +174,9 @@
 .content-left {
     color: #0a426e;
     width: 440px;
-    overflow: scroll;
-    height: 617px;
-    display: none;
+    width: 0;
+    overflow: hidden;
+    transition: all linear 0.2s;
 }
 .content-left__item {
     padding: 12px;
